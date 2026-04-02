@@ -9,110 +9,292 @@
 <body>
 
 <header>
-    <div class="tag">Projeto Integrador — ADS</div>
-    <h1>Portal Antifraude <span>Digital</span></h1>
-    <p class="subtitle">Benchmarking, Netnografia, Questionário e Matriz CSD — documentação completa de pesquisa para o projeto integrador de Análise e Desenvolvimento de Sistemas.</p>
+  <div class="tag">Projeto Integrador — ADS</div>
+  <br/>
+  <div class="tag">SALUS</div>
+  <h1>Portal Antifraude <span>Digital</span></h1>
+  <p class="subtitle">Benchmarking, Netnografia, Questionário e Matriz CSD<br/>Pesquisa e Documetentação inicial.</p>
 </header>
 
 <main>
-    <section class="section">
-        <div class="section-header">
-            <span class="section-num">01</span>
-            <h2>Benchmarking Competitivo</h2>
+  <section class="section">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>Benchmarking Competitivo</h2>
+    </div>
+
+    <h3>Objetivos da Análise</h3>
+    <p>Identificar os pontos fortes e as lacunas dos principais concorrentes (<strong>SaferNet Brasil</strong> e <strong>FEBRABAN</strong>) para definir onde o portal pode se destacar, gerar mais valor ao usuário e conquistar maior engajamento.</p>
+    <p><strong>Escopo:</strong> navegação e desempenho, qualidade de conteúdo, interação com o público e acessibilidade da informação.</p>
+
+    <h3>Análise Comparativa</h3>
+    <div class="bench-grid">
+      <div class="bench-cell bench-header">Critério</div>
+      <div class="bench-cell bench-header">SaferNet Brasil</div>
+      <div class="bench-cell bench-header">FEBRABAN</div>
+      <div class="bench-cell bench-header our bench-header">Nosso Portal</div>
+
+      <div class="bench-cell bench-label">Velocidade de carregamento</div>
+      <div class="bench-cell warn">Média — muitos elementos pesados</div>
+      <div class="bench-cell warn">Lenta — site institucional denso</div>
+      <div class="bench-cell our">Alvo: rápido e leve (PWA-friendly)</div>
+
+      <div class="bench-cell bench-label">Design / UX</div>
+      <div class="bench-cell warn">Layout desatualizado</div>
+      <div class="bench-cell bad">Foco corporativo, pouco acolhedor</div>
+      <div class="bench-cell our">Design acessível, linguagem simples</div>
+
+      <div class="bench-cell bench-label">Conteúdo educativo</div>
+      <div class="bench-cell good">Bom — denúncias e guias</div>
+      <div class="bench-cell good">Bom — cartilhas e alertas</div>
+      <div class="bench-cell our">Blogs, podcasts, vídeos curtos</div>
+
+      <div class="bench-cell bench-label">Linguagem com o público</div>
+      <div class="bench-cell warn">Técnica/formal</div>
+      <div class="bench-cell bad">Muito corporativa</div>
+      <div class="bench-cell our">Popular, acessível, empática</div>
+
+      <div class="bench-cell bench-label">Interação com o usuário</div>
+      <div class="bench-cell warn">Canal de denúncia apenas</div>
+      <div class="bench-cell bad">Praticamente inexistente</div>
+      <div class="bench-cell our">Quizzes, comentários, newsletter</div>
+
+      <div class="bench-cell bench-label">Conteúdo para idosos / vulneráveis</div>
+      <div class="bench-cell warn">Parcial</div>
+      <div class="bench-cell warn">Parcial</div>
+      <div class="bench-cell our">Seção dedicada, fonte ampliada</div>
+
+      <div class="bench-cell bench-label">Atualização de conteúdo</div>
+      <div class="bench-cell warn">Irregular</div>
+      <div class="bench-cell warn">Periódica (campanhas sazonais)</div>
+      <div class="bench-cell our">Contínua — golpes em tempo real</div>
+
+      <div class="bench-cell bench-label">Responsividade mobile</div>
+      <div class="bench-cell warn">Parcial</div>
+      <div class="bench-cell warn">Parcial</div>
+      <div class="bench-cell our">Mobile-first obrigatório</div>
+    </div>
+
+    <div class="diff-box">
+      <h3>🎯 Nossos Diferenciais Estratégicos</h3>
+      <ul class="diff-list">
+        <li><strong>Linguagem acessível e humanizada:</strong> comunicação próxima, sem jargão jurídico ou técnico</li>
+        <li><strong>Conteúdo multiformato:</strong> podcasts, artigos curtos, vídeos e quizzes — para diferentes perfis de usuário</li>
+        <li><strong>Foco em populações vulneráveis:</strong> idosos, usuários de baixa escolaridade e pessoas com deficiência visual</li>
+        <li><strong>Atualização em tempo real:</strong> "golpe da semana" — alertas sobre novas modalidades de fraude</li>
+        <li><strong>Engajamento ativo:</strong> quizzes de conscientização, testes de segurança e newsletter</li>
+        <li><strong>Design mobile-first:</strong> a maior parte do público acessa pelo celular</li>
+      </ul>
+    </div>
+
+    <h3>Padrões e Oportunidades Identificadas</h3>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-title"><span class="dot dot-green"></span>Ponto Forte dos Concorrentes</div>
+        <p>Credibilidade institucional e parcerias com órgãos governamentais. Reconhecimento de marca consolidado.</p>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot dot-orange"></span>Ponto Fraco dos Concorrentes</div>
+        <p>Linguagem distante do cidadão comum. Baixo engajamento jovem. Design desatualizado e experiência mobile ruim.</p>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot dot-purple"></span>Nossa Oportunidade</div>
+        <p>Ser o portal mais acessível, atualizado e próximo do brasileiro — especialmente para quem menos tem acesso à informação qualificada.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>Netnografia</h2>
+    </div>
+
+    <h3>Objetivos da Pesquisa</h3>
+    <p>Observar como as pessoas <strong>relatam, reagem e compartilham</strong> experiências com golpes e fraudes em ambientes digitais, identificando dores reais, vocabulário utilizado e o tipo de conteúdo que gera engajamento e confiança.</p>
+
+    <h3>Ambientes Selecionados para Observação</h3>
+    <table class="netno-table">
+      <thead>
+        <tr>
+          <th>Plataforma / Comunidade</th>
+          <th>Tipo de observação</th>
+          <th>Perfil do público</th>
+          <th>Justificativa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Reddit – r/brasil, r/golpes</strong></td>
+          <td><span class="badge badge-green">Passiva</span></td>
+          <td>18–40 anos, tech-savvy</td>
+          <td>Relatos espontâneos de golpes com detalhes e emoções reais</td>
+        </tr>
+        <tr>
+          <td><strong>Facebook – grupos "Cuidado com golpes"</strong></td>
+          <td><span class="badge badge-green">Passiva</span></td>
+          <td>35–65 anos</td>
+          <td>Público mais vulnerável, compartilha experiências cotidianas</td>
+        </tr>
+        <tr>
+          <td><strong>Twitter/X – hashtags #golpe #fraude #estelionato</strong></td>
+          <td><span class="badge badge-blue">Ativa</span></td>
+          <td>Variado</td>
+          <td>Detecção de novos golpes em tempo real e repercussão midiática</td>
+        </tr>
+        <tr>
+          <td><strong>YouTube – comentários em vídeos sobre golpes</strong></td>
+          <td><span class="badge badge-green">Passiva</span></td>
+          <td>Variado</td>
+          <td>Identificar dúvidas recorrentes e o que o público quer saber</td>
+        </tr>
+        <tr>
+          <td><strong>Reclame Aqui</strong></td>
+          <td><span class="badge badge-orange">Documental</span></td>
+          <td>Consumidores lesados</td>
+          <td>Casos reais com descrições de golpes e reações emocionais</td>
+        </tr>
+        <tr>
+          <td><strong>TikTok – conteúdos sobre fraudes</strong></td>
+          <td><span class="badge badge-green">Passiva</span></td>
+          <td>15–30 anos</td>
+          <td>Entender como o tema é consumido por jovens em formato curto</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>O que Analisar em Cada Ambiente</h3>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-title"><span class="dot dot-green"></span>Linguagem e Vocabulário</div>
+        <p>Como as pessoas descrevem os golpes? Quais termos usam? Há humor, raiva, vergonha? Isso orienta o tom do nosso conteúdo.</p>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot dot-orange"></span>Dores e Frustrações</div>
+        <p>O que mais machuca? Perda financeira, a vergonha, a falta de suporte? Identificar emoções centrais para criar empatia no portal.</p>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="dot dot-purple"></span>Padrões de Golpes</div>
+        <p>Quais golpes aparecem com mais frequência? Quais são mais recentes? Isto alimenta nosso "golpe da semana" e pauta editorial.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2>Questionário com Usuários</h2>
+    </div>
+    <p>Questionário objetivo, com no máximo 9 perguntas, voltado para entender o comportamento do público frente a fraudes e o que esperam de um portal de conscientização.</p>
+
+    <ul class="q-list">
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Você ou alguém próximo já foi vítima de algum golpe ou fraude digital?</div>
+          <span class="q-type">Escala: Sim, pessoalmente / Sim, alguém próximo / Não, mas conheço casos / Não sei</span>
         </div>
-
-        <h3>Objetivos da Análise</h3>
-        <p>Identificar os pontos fortes e as lacunas dos principais concorrentes (<strong>SaferNet Brasil</strong> e <strong>FEBRABAN</strong>) para definir onde o portal pode se destacar.</p>
-
-        <div class="bench-grid">
-            <div class="bench-cell bench-header">Critério</div>
-            <div class="bench-cell bench-header">SaferNet Brasil</div>
-            <div class="bench-cell bench-header">FEBRABAN</div>
-            <div class="bench-cell bench-header our">Nosso Portal</div>
-
-            <div class="bench-cell bench-label">Velocidade</div>
-            <div class="bench-cell warn">Média</div>
-            <div class="bench-cell warn">Lenta</div>
-            <div class="bench-cell our">Alvo: rápido</div>
-
-            <div class="bench-cell bench-label">Design / UX</div>
-            <div class="bench-cell warn">Desatualizado</div>
-            <div class="bench-cell bad">Corporativo</div>
-            <div class="bench-cell our">Acessível e simples</div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Qual tipo de golpe você considera mais comum ou perigoso no seu dia a dia?</div>
+          <span class="q-type">Múltipla escolha: Pix falso / Phishing por e-mail ou SMS / Falso suporte técnico / Golpe do WhatsApp / Outro</span>
         </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Quando recebe uma mensagem ou ligação suspeita, qual é sua reação mais comum?</div>
+          <span class="q-type">Múltipla escolha: Ignoro e apago / Pesquiso para confirmar / Encaminho para alguém de confiança / Não sei o que fazer</span>
+        </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Com que frequência você busca informações sobre como se proteger de golpes?</div>
+          <span class="q-type">Escala: Nunca / Raramente / Às vezes / Com frequência / Sempre</span>
+        </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Qual formato de conteúdo você prefere para aprender sobre prevenção a fraudes?</div>
+          <span class="q-type">Múltipla escolha: Artigos e textos curtos / Vídeos / Podcasts / Infográficos / Quizzes interativos</span>
+        </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">O que te faria visitar e usar com regularidade um portal sobre prevenção a fraudes?</div>
+          <span class="q-type">Aberta curta: campo de texto</span>
+        </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Você saberia dizer para qual órgão ou canal reportar um golpe que sofreu?</div>
+          <span class="q-type">Escala: Sim, sei bem / Tenho uma ideia / Não sei ao certo / Não sei nada</span>
+        </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Qual faixa etária melhor te representa?</div>
+          <span class="q-type">Múltipla escolha: Até 17 anos / 18–30 / 31–45 / 46–60 / Acima de 60</span>
+        </div>
+      </li>
+      <li class="q-item">
+        <span class="q-num"></span>
+        <div>
+          <div class="q-text">Você concordaria em receber alertas semanais sobre novos golpes por e-mail ou WhatsApp?</div>
+          <span class="q-type">Escala: Sim, adoraria / Talvez / Prefiro buscar quando precisar / Não</span>
+        </div>
+      </li>
+    </ul>
+  </section>
 
-        <div class="diff-box">
-            <h3>🎯 Nossos Diferenciais Estratégicos</h3>
-            <ul class="diff-list">
-                <li><strong>Linguagem acessível e humanizada</strong></li>
-                <li><strong>Conteúdo multiformato</strong></li>
-                <li><strong>Foco em populações vulneráveis</strong></li>
-            </ul>
-        </div>
-    </section>
+  <section class="section">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2>Matriz CSD</h2>
+    </div>
+    <p>A Matriz CSD organiza o conhecimento do time em três eixos: o que sabemos com certeza, o que apenas supomos e o que ainda precisamos descobrir — orientando as decisões de pesquisa e desenvolvimento.</p>
 
-    <section class="section">
-        <div class="section-header">
-            <span class="section-num">02</span>
-            <h2>Netnografia</h2>
-        </div>
-        <table class="netno-table">
-            <thead>
-                <tr>
-                    <th>Plataforma</th>
-                    <th>Tipo</th>
-                    <th>Público</th>
-                    <th>Justificativa</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Reddit</strong></td>
-                    <td><span class="badge badge-green">Passiva</span></td>
-                    <td>18–40 anos</td>
-                    <td>Relatos espontâneos</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <div class="csd-grid">
+      <div class="csd-col">
+        <div class="csd-header cert">✓ Certezas</div>
+        <div class="csd-item">O Brasil é um dos países com maior índice de fraudes digitais do mundo</div>
+        <div class="csd-item">A maioria dos brasileiros acessa a internet pelo celular</div>
+        <div class="csd-item">Idosos e pessoas de baixa escolaridade são os mais vulneráveis</div>
+        <div class="csd-item">Golpe do Pix, phishing e falso WhatsApp estão entre os mais comuns</div>
+        <div class="csd-item">A linguagem técnica afasta o público leigo</div>
+        <div class="csd-item">Conteúdo em vídeo tem maior alcance nas redes sociais</div>
+        <div class="csd-item">Os concorrentes têm pouco engajamento com o público jovem</div>
+      </div>
+      <div class="csd-col">
+        <div class="csd-header supo">~ Suposições</div>
+        <div class="csd-item">O público prefere conteúdo curto e direto a materiais extensos</div>
+        <div class="csd-item">A vergonha impede muitas vítimas de reportar os golpes</div>
+        <div class="csd-item">Quizzes interativos aumentam o tempo de permanência no site</div>
+        <div class="csd-item">Usuários confiam mais em portais com linguagem acolhedora</div>
+        <div class="csd-item">A newsletter semanal de alertas teria boa adesão</div>
+        <div class="csd-item">Podcasts atingiriam um público que não lê artigos</div>
+        <div class="csd-item">Pais se preocupam em proteger também seus filhos e pais idosos</div>
+      </div>
+      <div class="csd-col">
+        <div class="csd-header duv">? Dúvidas</div>
+        <div class="csd-item">Qual o perfil exato do nosso público-alvo prioritário?</div>
+        <div class="csd-item">As pessoas buscam esse tipo de informação preventivamente ou só após serem vítimas?</div>
+        <div class="csd-item">Qual formato de conteúdo gera mais engajamento no nosso contexto?</div>
+        <div class="csd-item">Como garantir credibilidade sem ser uma grande instituição?</div>
+        <div class="csd-item">O público aceitaria criar conta para personalizar alertas?</div>
+        <div class="csd-item">Quais fontes de informação o usuário já confia atualmente?</div>
+        <div class="csd-item">Como mensurar o impacto real do portal na redução de vítimas?</div>
+      </div>
+    </div>
+  </section>
 
-    <section class="section">
-        <div class="section-header">
-            <span class="section-num">03</span>
-            <h2>Questionário com Usuários</h2>
-        </div>
-        <ul class="q-list">
-            <li class="q-item">
-                <span class="q-num"></span>
-                <div>
-                    <div class="q-text">Você já foi vítima de algum golpe digital?</div>
-                    <span class="q-type">Escala: Sim / Não</span>
-                </div>
-            </li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <div class="section-header">
-            <span class="section-num">04</span>
-            <h2>Matriz CSD</h2>
-        </div>
-        <div class="csd-grid">
-            <div class="csd-col">
-                <div class="csd-header cert">✓ Certezas</div>
-                <div class="csd-item">Brasil tem alto índice de fraudes.</div>
-            </div>
-            <div class="csd-col">
-                <div class="csd-header supo">~ Suposições</div>
-                <div class="csd-item">Público prefere conteúdo curto.</div>
-            </div>
-            <div class="csd-col">
-                <div class="csd-header duv">? Dúvidas</div>
-                <div class="csd-item">Qual perfil exato do público?</div>
-            </div>
-        </div>
-    </section>
 </main>
-
 </body>
 </html>
