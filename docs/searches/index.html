@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrador – Portal Antifraude</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Integrador – Portal Antifraude</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<nav class="topnav">
+  <div class="topnav-inner">
+    <div class="breadcrumb">
+      <a href="#">Salu</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="#">Projeto Integrador</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="breadcrumb-current">Pesquisa e Documentação</span>
+    </div>
+    <div class="nav-links">
+      <a href="#benchmarking" class="nav-link">Benchmarking</a>
+      <a href="#netnografia" class="nav-link">Netnografia</a>
+      <a href="#questionario" class="nav-link">Questionário</a>
+      <a href="#csd" class="nav-link">Matriz CSD</a>
+      <a href="#personas" class="nav-link active">Personas</a>
+      <a href="#cenarios" class="nav-link">Cenários</a>
+    </div>
+  </div>
+</nav>
+
 <header>
-  <div class="tag">Projeto Integrador — ADS</div>
-  <div class="tag">SALUS</div>
-  <h1>Portal Antifraude <span>Digital</span></h1>
-  <p class="subtitle">Benchmarking, Netnografia, Questionário e Matriz CSD<br/>Pesquisa e Documentação inicial.</p>
+  <div class="tag">Projeto Integrador — SALUS</div>
+  <h1>Portal <span>Informativo</span> Antifraude</h1>
 </header>
 
 <main>
 
-  <section class="section">
+  <!-- 01 BENCHMARKING -->
+  <section class="section" id="benchmarking">
     <div class="section-header">
       <span class="section-num">01</span>
-      <h2>Benchmarking Competitivo</h2>
+      <h2>Benchmarking</h2>
     </div>
-
-    <h3>Objetivos da Análise</h3>
-    <p>Identificar os pontos fortes e as lacunas dos principais concorrentes (<strong>SaferNet Brasil</strong> e <strong>FEBRABAN</strong>) para definir onde o portal pode se destacar, gerar mais valor ao usuário e conquistar maior engajamento.</p>
+    <h3>Análise</h3>
+    <p>Identificamos pontos fortes e lacunas dos principais portais digitais informativo (<strong>SaferNet Brasil</strong> e <strong>FEBRABAN</strong>) para definir onde o portal pode se destacar, gerar mais valor ao usuário e conquistar maior engajamento.</p>
     <p><strong>Escopo:</strong> navegação e desempenho, qualidade de conteúdo, interação com o público e acessibilidade da informação.</p>
-
     <h3>Análise Comparativa</h3>
     <div class="bench-grid">
       <div class="bench-cell bench-header">Critério</div>
       <div class="bench-cell bench-header">SaferNet Brasil</div>
       <div class="bench-cell bench-header">FEBRABAN</div>
       <div class="bench-cell bench-header our bench-header">Nosso Portal</div>
-
       <div class="bench-cell bench-label">Velocidade de carregamento</div>
       <div class="bench-cell warn">Média — muitos elementos pesados</div>
       <div class="bench-cell warn">Lenta — site institucional denso</div>
       <div class="bench-cell our">Alvo: rápido e leve (PWA-friendly)</div>
-
       <div class="bench-cell bench-label">Design / UX</div>
       <div class="bench-cell warn">Layout desatualizado</div>
       <div class="bench-cell bad">Foco corporativo, pouco acolhedor</div>
       <div class="bench-cell our">Design acessível, linguagem simples</div>
-
       <div class="bench-cell bench-label">Conteúdo educativo</div>
       <div class="bench-cell good">Bom — denúncias e guias</div>
       <div class="bench-cell good">Bom — cartilhas e alertas</div>
       <div class="bench-cell our">Blogs, podcasts, vídeos curtos</div>
-
       <div class="bench-cell bench-label">Linguagem com o público</div>
       <div class="bench-cell warn">Técnica/formal</div>
       <div class="bench-cell bad">Muito corporativa</div>
       <div class="bench-cell our">Popular, acessível, empática</div>
-
       <div class="bench-cell bench-label">Interação com o usuário</div>
       <div class="bench-cell warn">Canal de denúncia apenas</div>
       <div class="bench-cell bad">Praticamente inexistente</div>
       <div class="bench-cell our">Quizzes, comentários, newsletter</div>
-
       <div class="bench-cell bench-label">Conteúdo para idosos / vulneráveis</div>
       <div class="bench-cell warn">Parcial</div>
       <div class="bench-cell warn">Parcial</div>
       <div class="bench-cell our">Seção dedicada, fonte ampliada</div>
-
       <div class="bench-cell bench-label">Atualização de conteúdo</div>
       <div class="bench-cell warn">Irregular</div>
       <div class="bench-cell warn">Periódica (campanhas sazonais)</div>
       <div class="bench-cell our">Contínua — golpes em tempo real</div>
-
       <div class="bench-cell bench-label">Responsividade mobile</div>
       <div class="bench-cell warn">Parcial</div>
       <div class="bench-cell warn">Parcial</div>
       <div class="bench-cell our">Mobile-first obrigatório</div>
     </div>
-
     <div class="diff-box">
-      <h3>🎯 Nossos Diferenciais Estratégicos</h3>
+      <h3>Nossos Diferenciais Estratégicos</h3>
       <ul class="diff-list">
         <li><strong>Linguagem acessível e humanizada:</strong> comunicação próxima, sem jargão jurídico ou técnico</li>
         <li><strong>Conteúdo multiformato:</strong> podcasts, artigos curtos, vídeos e quizzes — para diferentes perfis de usuário</li>
@@ -86,7 +94,6 @@
         <li><strong>Design mobile-first:</strong> a maior parte do público acessa pelo celular</li>
       </ul>
     </div>
-
     <h3>Padrões e Oportunidades Identificadas</h3>
     <div class="card-grid">
       <div class="card">
@@ -104,15 +111,14 @@
     </div>
   </section>
 
-  <section class="section">
+  <!-- 02 NETNOGRAFIA -->
+  <section class="section" id="netnografia">
     <div class="section-header">
       <span class="section-num">02</span>
       <h2>Netnografia</h2>
     </div>
-
     <h3>Objetivos da Pesquisa</h3>
     <p>Observar como as pessoas <strong>relatam, reagem e compartilham</strong> experiências com golpes e fraudes em ambientes digitais, identificando dores reais, vocabulário utilizado e o tipo de conteúdo que gera engajamento e confiança.</p>
-
     <h3>Ambientes Selecionados para Observação</h3>
     <table class="netno-table">
       <thead>
@@ -137,7 +143,7 @@
           <td>Público mais vulnerável, compartilha experiências cotidianas</td>
         </tr>
         <tr>
-          <td><strong>Twitter/X – hashtags #golpe #fraude #estelionato</strong></td>
+          <td><strong>Twitter/X – hashtags #golpe #fraude</strong></td>
           <td><span class="badge badge-blue">Ativa</span></td>
           <td>Variado</td>
           <td>Detecção de novos golpes em tempo real e repercussão midiática</td>
@@ -162,53 +168,32 @@
         </tr>
       </tbody>
     </table>
-
     <div class="evidencias">
-      <p class="evidencias-label">📎 Evidências Coletadas</p>
+      <p class="evidencias-label">Evidências Coletadas</p>
       <div class="evidencias-grid">
-
         <div class="evidencia-card">
-          <div class="evidencia-img" style="background-image: url('img/golpesreddt1.png');">
-            <span class="placeholder-icon">🖥️</span>
-          </div>
+          <div class="evidencia-img"><span>🖥️</span></div>
           <div class="evidencia-body">
-            <div class="evidencia-platform">
-              <span class="badge badge-green">Passiva</span>
-              Reddit — r/brasil / r/golpes
-            </div>
+            <div class="evidencia-platform"><span class="badge badge-green">Passiva</span> Reddit — r/brasil / r/golpes</div>
             <p class="evidencia-desc">Relatos de usuários descrevendo golpes recebidos, com detalhes sobre abordagem, linguagem usada pelo golpista e reação emocional da vítima.</p>
           </div>
         </div>
-
         <div class="evidencia-card">
-          <div class="evidencia-img" style="background-image: url('img/golpesreddt2.png');">
-            <span class="placeholder-icon">🖥️</span>
-          </div>
+          <div class="evidencia-img"><span>🖥️</span></div>
           <div class="evidencia-body">
-            <div class="evidencia-platform">
-              <span class="badge badge-green">Passiva</span>
-              Reddit — discussões sobre fraude
-            </div>
-            <p class="evidencia-desc">Tópicos com engajamento elevado mostrando padrões comuns de golpes e o nível de conscientização (ou falta dele) entre os usuários.</p>
+            <div class="evidencia-platform"><span class="badge badge-green">Passiva</span> Reddit — discussões sobre fraude</div>
+            <p class="evidencia-desc">Tópicos com engajamento elevado mostrando padrões comuns de golpes e o nível de conscientização entre os usuários.</p>
           </div>
         </div>
-
         <div class="evidencia-card">
-          <div class="evidencia-img" style="background-image: url('img/golpesfacebook.png');">
-            <span class="placeholder-icon">🖥️</span>
-          </div>
+          <div class="evidencia-img"><span>📘</span></div>
           <div class="evidencia-body">
-            <div class="evidencia-platform">
-              <span class="badge badge-green">Passiva</span>
-              Facebook — grupos de alerta
-            </div>
-            <p class="evidencia-desc">Publicações em grupos de proteção ao consumidor com alertas sobre golpistas ativos, demonstrando alto compartilhamento e engajamento do público 35–65 anos.</p>
+            <div class="evidencia-platform"><span class="badge badge-green">Passiva</span> Facebook — grupos de alerta</div>
+            <p class="evidencia-desc">Publicações em grupos de proteção ao consumidor com alertas sobre golpistas ativos, demonstrando alto compartilhamento do público 35–65 anos.</p>
           </div>
         </div>
-
       </div>
     </div>
-
     <h3>O que Analisar em Cada Ambiente</h3>
     <div class="card-grid">
       <div class="card">
@@ -226,87 +211,99 @@
     </div>
   </section>
 
-  <section class="section">
+  <!-- 03 QUESTIONÁRIO -->
+  <section class="section" id="questionario">
     <div class="section-header">
       <span class="section-num">03</span>
       <h2>Questionário com Usuários</h2>
     </div>
-    <p>Questionário objetivo, com no máximo 9 perguntas, voltado para entender o comportamento do público frente a fraudes e o que esperam de um portal de conscientização.</p>
+    <p>35 respondentes. Questionário com 9 perguntas sobre comportamento do público frente a fraudes e expectativas de um portal de conscientização.</p>
 
+    <h3>Principais Resultados — Dados Filtrados</h3>
+    <div class="dados-grid">
+      <div class="dado-card"><div class="dado-num green">80,5%</div><div class="dado-label">têm contato próximo com fraude (pessoalmente ou alguém próximo)</div></div>
+      <div class="dado-card"><div class="dado-num amber">82,9%</div><div class="dado-label">reagem ignorando/apagando mensagens suspeitas — comportamento reativo</div></div>
+      <div class="dado-card"><div class="dado-num red">85,8%</div><div class="dado-label">buscam informações raramente ou nunca de forma preventiva</div></div>
+      <div class="dado-card"><div class="dado-num blue">65,7%</div><div class="dado-label">preferem vídeo como formato de conteúdo</div></div>
+      <div class="dado-card"><div class="dado-num amber">57,2%</div><div class="dado-label">não sabem ao certo para onde reportar um golpe</div></div>
+      <div class="dado-card"><div class="dado-num green">68,5%</div><div class="dado-label">aceitariam ou talvez aceitariam alertas semanais</div></div>
+    </div>
+
+    <h3>Perguntas Aplicadas</h3>
     <ul class="q-list">
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Você ou alguém próximo já foi vítima de algum golpe ou fraude digital?</div>
-          <span class="q-type">Escala: Sim, pessoalmente / Sim, alguém próximo / Não, mas conheço casos / Não sei</span>
+          <span class="q-type">Resultado: 36,1% pessoalmente · 44,4% alguém próximo · 16,7% conhece casos</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Qual tipo de golpe você considera mais comum ou perigoso no seu dia a dia?</div>
-          <span class="q-type">Múltipla escolha: Pix falso / Phishing por e-mail ou SMS / Falso suporte técnico / Golpe do WhatsApp / Outro</span>
+          <span class="q-type">Resultado: Phishing 28,6% · Golpe do WhatsApp 28,6% · Pix falso 25,7% · Falso suporte 11,4%</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Quando recebe uma mensagem ou ligação suspeita, qual é sua reação mais comum?</div>
-          <span class="q-type">Múltipla escolha: Ignoro e apago / Pesquiso para confirmar / Encaminho para alguém de confiança / Não sei o que fazer</span>
+          <span class="q-type">Resultado: 82,9% ignora/apaga · 14,3% pesquisa para confirmar</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Com que frequência você busca informações sobre como se proteger de golpes?</div>
-          <span class="q-type">Escala: Nunca / Raramente / Às vezes / Com frequência / Sempre</span>
+          <span class="q-type">Resultado: 42,9% às vezes · 22,9% raramente · 20% nunca</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Qual formato de conteúdo você prefere para aprender sobre prevenção a fraudes?</div>
-          <span class="q-type">Múltipla escolha: Artigos e textos curtos / Vídeos / Podcasts / Infográficos / Quizzes interativos</span>
+          <span class="q-type">Resultado: 65,7% vídeos · 17,1% artigos curtos · 11,4% podcasts</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">O que te faria visitar e usar com regularidade um portal sobre prevenção a fraudes?</div>
-          <span class="q-type">Aberta curta: campo de texto</span>
+          <span class="q-type">Campo aberto — respostas coletadas para análise qualitativa</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Você saberia dizer para qual órgão ou canal reportar um golpe que sofreu?</div>
-          <span class="q-type">Escala: Sim, sei bem / Tenho uma ideia / Não sei ao certo / Não sei nada</span>
+          <span class="q-type">Resultado: 25,7% sabe bem · 22,9% tem ideia · 28,6% não sabe ao certo · restante não sabe nada</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Qual faixa etária melhor te representa?</div>
-          <span class="q-type">Múltipla escolha: Até 17 anos / 18–30 / 31–45 / 46–60 / Acima de 60</span>
+          <span class="q-type">Resultado: 42,9% entre 31–45 anos · 31,4% entre 46–60 · 22,9% entre 18–30</span>
         </div>
       </li>
       <li class="q-item">
         <span class="q-num"></span>
         <div>
           <div class="q-text">Você concordaria em receber alertas semanais sobre novos golpes por e-mail ou WhatsApp?</div>
-          <span class="q-type">Escala: Sim, adoraria / Talvez / Prefiro buscar quando precisar / Não</span>
+          <span class="q-type">Resultado: 37,1% adoraria · 31,4% talvez · 14,3% prefere buscar quando precisar · 17,1% não</span>
         </div>
       </li>
     </ul>
   </section>
 
-  <section class="section">
+  <!-- 04 MATRIZ CSD -->
+  <section class="section" id="csd">
     <div class="section-header">
       <span class="section-num">04</span>
       <h2>Matriz CSD</h2>
     </div>
     <p>A Matriz CSD organiza o conhecimento do time em três eixos: o que sabemos com certeza, o que apenas supomos e o que ainda precisamos descobrir — orientando as decisões de pesquisa e desenvolvimento.</p>
-
     <div class="csd-grid">
       <div class="csd-col">
         <div class="csd-header cert">✓ Certezas</div>
@@ -341,6 +338,304 @@
     </div>
   </section>
 
+  <!-- 05 PERSONAS -->
+  <section class="section" id="personas">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2>Personas</h2>
+    </div>
+    <p>Três personas derivadas diretamente dos dados do questionário (35 respondentes). Cada persona representa um cluster de comportamentos, faixa etária e relação com fraudes identificado na pesquisa. Base empírica: maioria masculina (68,6%), faixa 31–45 anos dominante (42,9%), renda R$ 1.501–3.000 (41,2%), periferias do RJ.</p>
+
+    <!-- ——— PERSONA 1 ——— -->
+    <div class="persona-doc pd-teal">
+      <div class="pd-top">
+        <div class="pd-identity">
+          <div class="pd-icon-wrap pdi-teal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 3H8l-2 4h12l-2-4z"/><circle cx="12" cy="14" r="2"/>
+            </svg>
+          </div>
+          <span class="pd-archetype arch-teal">Reativo</span>
+          <div class="pd-meta">38 anos · Masculino<br>Casado · 1 filho<br>Vila de Cava, RJ</div>
+        </div>
+        <div class="pd-bio">
+          <div class="pd-persona-name">Roberto Tavares</div>
+          <div class="pd-persona-sub">Roberto Tavares dos Santos, 38 anos, casado</div>
+          <p>Roberto trabalha como operador logístico em um galpão em Nova Iguaçu. Usa o WhatsApp intensamente no trabalho e no dia a dia com a família. Não tem hábito de buscar informações sobre segurança digital — age por instinto quando algo parece errado.</p>
+          <p>É desconfiado por natureza, mas essa desconfiança não se traduz em conhecimento: ignora o problema sem entender o risco. Viu um colega de trabalho perder R$ 800 num Pix falso e ficou preocupado, mas não sabe como se proteger de forma prática.</p>
+          <p><em>"Quando recebo mensagem esquisita, apago e pronto. Mas fico pensando se perdi algum aviso do banco de verdade."</em></p>
+        </div>
+        <div class="pd-traj">
+          <div class="pd-traj-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            Trajetória e contexto
+          </div>
+          <ul>
+            <li>Ensino médio completo; <strong>nunca fez curso de tecnologia</strong></li>
+            <li>Usa smartphone Android de entrada há 3 anos; <strong>troca de aparelho a cada 4 anos</strong></li>
+            <li>Acessa internet principalmente pelo <strong>celular via dados móveis</strong></li>
+            <li>Já teve o <strong>número do WhatsApp quase clonado</strong> por descuido com código de verificação</li>
+            <li>Acompanha <strong>notícias pelo YouTube</strong> — consome vídeos curtos no caminho para o trabalho</li>
+            <li>Família no grupo de WhatsApp: <strong>pais idosos e irmãos</strong> com baixo letramento digital</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pd-bottom">
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Comportamento social
+          </div>
+          <ul>
+            <li><strong>Encaminha alertas</strong> recebidos no WhatsApp para o grupo da família sem verificar</li>
+            <li><strong>Confia em fontes próximas:</strong> amigos e familiares são sua principal referência de informação</li>
+            <li>Sente <strong>vergonha de admitir</strong> que não entende bem de tecnologia</li>
+            <li><strong>Questiona colegas</strong> quando algo parece suspeito, mas raramente age formalmente</li>
+          </ul>
+        </div>
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+            Hábitos financeiros
+          </div>
+          <ul>
+            <li>Usa <strong>Pix com frequência</strong> para pagar contas, dividir despesas e enviar dinheiro à família</li>
+            <li><strong>Não tem conta em banco digital</strong> — usa Bradesco com app no celular</li>
+            <li>Já recebeu <strong>cobrança falsa por SMS</strong> e por pouco não pagou</li>
+            <li><strong>Não considera prioridade</strong> gastar tempo aprendendo sobre segurança financeira</li>
+          </ul>
+        </div>
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            Relação com tecnologia
+          </div>
+          <ul>
+            <li>Usa principalmente <strong>WhatsApp, YouTube e Instagram</strong> — sem e-mail no dia a dia</li>
+            <li><strong>Não tem smartphone</strong>: consome conteúdo em vídeos curtos (Reels e Shorts)</li>
+            <li>Aberto a <strong>receber alertas semanais</strong> pelo WhatsApp — esse é seu canal principal</li>
+            <li><strong>Não usa antivírus</strong> nem tem hábito de atualizar aplicativos</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pd-footer">Responsável pela persona — <span class="mchip">Integrante A</span></div>
+    </div>
+
+    <!-- ——— PERSONA 2 ——— -->
+    <div class="persona-doc pd-purple">
+      <div class="pd-top">
+        <div class="pd-identity">
+          <div class="pd-icon-wrap pdi-purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <span class="pd-archetype arch-purple">Exploradora</span>
+          <div class="pd-meta">24 anos · Feminino<br>Solteira<br>São Cristóvão, RJ</div>
+        </div>
+        <div class="pd-bio">
+          <div class="pd-persona-name">Julia Nascimento</div>
+          <div class="pd-persona-sub">Julia Nascimento Ferreira, 24 anos, solteira</div>
+          <p>Julia trabalha como assistente administrativa em uma empresa de pequeno porte no centro do Rio. Formada em administração, é a pessoa do trabalho que resolve os problemas de tecnologia dos colegas mais velhos. Usa múltiplas plataformas digitais com naturalidade.</p>
+          <p>Tem mais conhecimento que a média sobre golpes digitais, mas esse conhecimento é fragmentado — absorvido por vídeos do TikTok e conversas no grupo do trabalho, não por fontes confiáveis. Age reativamente: pesquisa quando recebe algo suspeito, mas não busca informação preventivamente.</p>
+          <p><em>"Recebi um SMS dizendo que meu CPF estava comprometido. Fui pesquisar, mas não achei nada claro e rápido pra confirmar se era golpe ou não."</em></p>
+        </div>
+        <div class="pd-traj">
+          <div class="pd-traj-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            Trajetória e contexto
+          </div>
+          <ul>
+            <li><strong>Graduada em Administração</strong> — UNESA, 2022</li>
+            <li>Primeiro emprego formal; <strong>renda de R$ 1.800/mês</strong></li>
+            <li>Cresceu com acesso à internet — <strong>digital nativa</strong> desde os 12 anos</li>
+            <li>Já teve <strong>conta no Instagram hackeada</strong> — perdeu seguidores e posts</li>
+            <li>Participa de grupos sobre <strong>finanças pessoais e carreira</strong> no WhatsApp e Telegram</li>
+            <li>Consome <strong>conteúdo sobre segurança digital no TikTok</strong> de forma passiva, sem aprofundamento</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pd-bottom">
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Comportamento social
+          </div>
+          <ul>
+            <li><strong>É referência de tecnologia</strong> para colegas e família — ensina o que aprende</li>
+            <li>Compartilha <strong>alertas de golpes no Instagram Stories</strong> quando acha relevante</li>
+            <li>Segue perfis de <strong>educação financeira e segurança digital</strong> nas redes</li>
+            <li><strong>Questiona ativamente</strong> promoções e ofertas antes de engajar</li>
+          </ul>
+        </div>
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+            Hábitos financeiros
+          </div>
+          <ul>
+            <li>Usa <strong>Nubank e Pix</strong> para todas as transações do dia a dia</li>
+            <li>Já recebeu <strong>phishing via e-mail do "Nubank"</strong> e suspeitou corretamente</li>
+            <li>Acompanha <strong>extrato bancário com frequência</strong> pelo app</li>
+            <li>Preocupada com <strong>golpes em compras online</strong> — já pesquisou lojas antes de comprar</li>
+          </ul>
+        </div>
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            Relação com tecnologia
+          </div>
+          <ul>
+            <li>Usa <strong>TikTok, Instagram, WhatsApp e Notion</strong> diariamente</li>
+            <li>Prefere <strong>vídeos curtos com checklist visual</strong> — não tem paciência para artigos longos</li>
+            <li>Aberta a <strong>newsletter quinzenal</strong> se o conteúdo for relevante e direto</li>
+            <li>Ativa no <strong>Google quando suspeita de algo</strong> — esse é seu comportamento padrão de verificação</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pd-footer">Responsável pela persona — <span class="mchip">Integrante B</span></div>
+    </div>
+
+    <!-- ——— PERSONA 3 ——— -->
+    <div class="persona-doc pd-coral">
+      <div class="pd-top">
+        <div class="pd-identity">
+          <div class="pd-icon-wrap pdi-coral">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <span class="pd-archetype arch-coral">Vulnerável</span>
+          <div class="pd-meta">52 anos · Feminino<br>Divorciada · 2 filhos<br>Nova Iguaçu, RJ</div>
+        </div>
+        <div class="pd-bio">
+          <div class="pd-persona-name">Marlene Lima</div>
+          <div class="pd-persona-sub">Marlene Conceição Lima, 52 anos, divorciada</div>
+          <p>Marlene trabalha como autônoma fazendo salgados por encomenda. Mora com uma filha de 27 anos e usa o celular principalmente para WhatsApp e Facebook — é o canal de comunicação central da sua vida social e profissional. Tem dificuldade com tecnologia, mas não se reconhece como vulnerável.</p>
+          <p>Foi vítima do golpe do "filho pedindo Pix urgente" — perdeu R$ 1.200 acreditando que era sua filha em apuros. Ficou com vergonha de contar para a família. Não sabia para onde ligar, o que fazer, nem se havia alguma forma de contestar. Descobriu que isso era um golpe só uma semana depois.</p>
+          <p><em>"Mandei o dinheiro na hora, sem nem pensar. Depois fiquei com vergonha de falar pra ela que tinha caído. Não sabia nem que tinha como reclamar."</em></p>
+        </div>
+        <div class="pd-traj">
+          <div class="pd-traj-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            Trajetória e contexto
+          </div>
+          <ul>
+            <li>Ensino fundamental completo; <strong>aprendeu a usar o celular sozinha</strong> por volta de 2017</li>
+            <li>Nunca usou computador — <strong>tudo pelo smartphone</strong> (Samsung Galaxy de entrada)</li>
+            <li><strong>Renda variável</strong> entre R$ 1.200–2.000/mês pelas encomendas</li>
+            <li>Usa <strong>WhatsApp para receber pedidos</strong> e fazer pagamentos via Pix da Caixa</li>
+            <li><strong>Filha mais nova (27 anos)</strong> é quem a orienta em questões de tecnologia</li>
+            <li>Recebe <strong>mensagens de correntes e alertas</strong> no WhatsApp e acredita na maioria delas</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pd-bottom">
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Comportamento social
+          </div>
+          <ul>
+            <li><strong>Não reportou o golpe</strong> por vergonha — nem para a filha imediatamente</li>
+            <li>Compartilha <strong>correntes e alertas sem verificar</strong> — confia no que recebe de amigos</li>
+            <li>Sente <strong>humilhação e insegurança</strong> após ter sido vítima</li>
+            <li><strong>Pede ajuda à filha</strong> sempre que algo tecnológico parece complicado</li>
+          </ul>
+        </div>
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+            Hábitos financeiros
+          </div>
+          <ul>
+            <li>Usa <strong>Pix da Caixa Econômica</strong> para receber pagamentos dos clientes</li>
+            <li><strong>Não monitora extrato</strong> com frequência — confia no saldo que o banco mostra</li>
+            <li>Já pagou <strong>boleto falso</strong> sem perceber — descobriu ao ligar para o credor original</li>
+            <li><strong>Não sabe contestar transações</strong> nem o canal correto para isso</li>
+          </ul>
+        </div>
+        <div class="pd-col">
+          <div class="pd-col-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fb923c" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            Relação com tecnologia
+          </div>
+          <ul>
+            <li>Usa <strong>WhatsApp e Facebook</strong> — não usa Instagram ou TikTok</li>
+            <li>Prefere <strong>vídeo com narração clara</strong> em vez de texto — não tem hábito de leitura online</li>
+            <li>Precisa de <strong>fonte grande, botões claros</strong> e linguagem sem termos técnicos</li>
+            <li><strong>Não tem smartphone</strong> de última geração — interface deve funcionar em aparelhos básicos</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pd-footer">Responsável pela persona — <span class="mchip">Integrante C</span></div>
+    </div>
+
+  </section>
+
+  <!-- 06 CENÁRIOS -->
+  <section class="section" id="cenarios">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <h2>Cenários das Personas</h2>
+    </div>
+    <p>Situações concretas de uso do Salu derivadas dos dados coletados. Cada cenário conecta o contexto real da persona ao objetivo que ela buscaria no portal.</p>
+
+    <div class="cenario-list">
+
+      <div class="cenario">
+        <div class="cenario-head">
+          <div class="cenario-icon ci-teal">RT</div>
+          <div>
+            <div class="cenario-name">Roberto Tavares — "A dúvida no dia a dia"</div>
+            <div class="cenario-tipo">Cenário de prevenção reativa · Pix falso · WhatsApp</div>
+          </div>
+        </div>
+        <p class="cenario-text">Segunda-feira, 19h30. Roberto recebe uma mensagem no WhatsApp dizendo que seu Pix foi bloqueado pelo banco e que precisa "confirmar os dados clicando no link". Ele desconfia, apaga — mas fica com a dúvida se era real ou se perdeu algum aviso importante. No dia seguinte, durante o almoço, abre o Salu no celular e encontra um vídeo de 90 segundos: <em>"Como identificar golpe do Pix em 3 sinais"</em>. Assiste, reconhece o padrão exato que recebeu. Compartilha o vídeo no grupo da família no WhatsApp.</p>
+        <div class="cenario-goal">Objetivo no portal: <span>verificar rapidamente se algo é golpe sem precisar pesquisar muito</span></div>
+      </div>
+
+      <div class="cenario">
+        <div class="cenario-head">
+          <div class="cenario-icon ci-purple">JN</div>
+          <div>
+            <div class="cenario-name">Julia Nascimento — "Antes de clicar"</div>
+            <div class="cenario-tipo">Cenário de verificação ativa · Phishing · Promoção falsa</div>
+          </div>
+        </div>
+        <p class="cenario-text">Julia está no Instagram e vê um anúncio de "promoção relâmpago" de uma loja conhecida com link encurtado. Antes de clicar, digita o nome da loja no Google com "golpe" — e o Salu aparece nos resultados. Abre e encontra um artigo curto com checklist visual: <em>"5 sinais de que um anúncio é armadilha"</em>. Identifica três dos cinco sinais no anúncio que recebeu. Além de não clicar, salva o artigo nos favoritos e passa a seguir o perfil do Salu no Instagram para se manter atualizada.</p>
+        <div class="cenario-goal">Objetivo no portal: <span>verificar algo específico antes de agir, de forma rápida e confiável</span></div>
+      </div>
+
+      <div class="cenario">
+        <div class="cenario-head">
+          <div class="cenario-icon ci-coral">ML</div>
+          <div>
+            <div class="cenario-name">Marlene Lima — "Fui vítima, e agora?"</div>
+            <div class="cenario-tipo">Cenário pós-fraude · Golpe do WhatsApp · Orientação e acolhimento</div>
+          </div>
+        </div>
+        <p class="cenario-text">Três dias após perder R$ 1.200 no golpe do "filho pedindo Pix urgente", Marlene ainda está abalada e envergonhada. A filha indica o Salu dizendo "tem um site que explica o que fazer". Marlene abre no celular, hesitante. A primeira tela que vê é a seção <em>"Fui vítima, o que fazer?"</em> — com botões grandes, linguagem simples e narração em áudio. Segue o passo a passo: liga para o banco, registra o boletim de ocorrência online e descobre que pode contestar a transação. Sente que não está sozinha. Compartilha a página com a vizinha que passou pelo mesmo.</p>
+        <div class="cenario-goal">Objetivo no portal: <span>receber orientação clara, acolhedora e prática após já ter sido vítima</span></div>
+      </div>
+
+    </div>
+  </section>
+
 </main>
+<script>
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        const active = document.querySelector('.nav-link[href="#' + e.target.id + '"]');
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  sections.forEach(s => observer.observe(s));
+</script>
 </body>
 </html>
