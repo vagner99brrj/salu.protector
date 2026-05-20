@@ -1,6 +1,6 @@
-## Salu - Conscientização e Prevenção de Golpes
+## Salus - Conscientização e Prevenção de Golpes
 
-O Salu é um projeto acadêmico desenvolvido para enfrentar o crescimento de fraudes e golpes no cenário digital brasileiro. O objetivo central é fornecer uma plataforma informativa e educativa que ajude a população a reconhecer padrões suspeitos e agir de forma preventiva.
+O Salus é um projeto acadêmico desenvolvido para enfrentar o crescimento de fraudes e golpes no cenário digital brasileiro. O objetivo central é fornecer uma plataforma informativa e educativa que ajude a população a reconhecer padrões suspeitos e agir de forma preventiva.
 
 ## 🎯 Propósito e Público-Alvo
 
